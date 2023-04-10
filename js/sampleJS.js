@@ -1,7 +1,7 @@
 function howdy(firstName){
     alert("Howdy"+firstName);
 }
-function conditional(){
+//function conditional(){
     alert("Use Inspect to see the console and inspect the code.");
     var currentHour = new Date().getHours();
     if (currentHour < 10){
@@ -11,7 +11,7 @@ function conditional(){
     }   else{
         alert("Good evening!");
     }
-}
+//}
 function displayCurrentMinute() {
     var currentMinute = new Date().getMinutes();
     var minuteDisplay = document.getElementById("minuteDisplay");
