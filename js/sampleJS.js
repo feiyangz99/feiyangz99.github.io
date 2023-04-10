@@ -12,3 +12,13 @@ function conditional(){
         alert("Good evening!");
     }
 }
+function displayCurrentMinute() {
+    var currentMinute = new Date().getMinutes();
+    var minuteDisplay = document.getElementById("minuteDisplay");
+    minuteDisplay.innerText = "Current minute: " + currentMinute;
+}
+
+function hideElement(elementId) {
+    var element = document.getElementById(elementId);
+    element.style.display = "none";
+}
