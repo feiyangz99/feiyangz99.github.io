@@ -30,6 +30,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 
+/* Add some basic styles for the header */
+.nav {
+    background-color: #33333328;
+    border-radius: 5px;
+    overflow: hidden;
+}
 
 .nav a {
     display: inline-block;
@@ -79,4 +85,12 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+/* Add a background image for the page */
+body {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
