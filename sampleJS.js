@@ -1,3 +1,3 @@
-function howdy(feiyang){
-    alert("Howdy"+feiyang);
+function howdy(firstName){
+    alert("Howdy"+firstName);
 }
