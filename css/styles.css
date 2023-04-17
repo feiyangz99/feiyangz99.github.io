@@ -109,8 +109,3 @@ body {
     padding: 20px 0;
 }
 
-@media (max-width: 767px) {
-    .footer {
-        display: none;
-    }
-}
