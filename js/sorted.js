@@ -10,7 +10,7 @@ function parseArray(arr) {
 }
 
 // Sample input array
-var inputArray = [5, 1, 8, 3, 2];
+var inputArray = [5, 1, 9, 7, 2];
 
 // Call the function with the input array
 parseArray(inputArray);
