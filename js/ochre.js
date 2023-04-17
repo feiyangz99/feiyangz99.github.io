@@ -1,8 +1,13 @@
 var parentElement=document.getElementById('ochreTableBody');
 var url="https://ochre.lib.uchicago.edu/ochre?uuid=accd571b-bae3-4d42-93d9-58b65ec79300"
 
+
+function proxyUrl(url) {
+    return 'https://cors-anywhere.herokuapp.com/' + url;
+  }
+  
 function loadXML(){
-    XMLrequest(url);
+    XMLproxyURL(url);
     console.log('loadXML -- ok');
 
 };
