@@ -1,13 +1,11 @@
 <div class="container mt-3">
     <div id="title">Wiki API Example</div>
-    <form>
-        <div class="row">
-            <div class="col">
-                <input id="searchTerm" type="text" class="form-control" placeholder="Enter your search term here">
-            </div>
+    <div class="row">
+        <div class="col">
+            <input id="searchTerm" type="text" class="form-control" placeholder="Enter your search term here">
         </div>
-    </form>
-    <button type="submit" class="btn btn-primary my-3" onclick="wikiAPI()">Search</button>
-    <div class="container" id="wiki"></div>
     </div>
+    <button type="button" class="btn btn-primary my-3" onclick="wikiAPI()">Search</button>
+    <div class="container" id="wiki"></div>
+</div>
 <script src="wiki.js"></script>
