@@ -44,24 +44,29 @@
         <li class="nav-item">
             <a class="nav-link" href="ochre.html">Ochre API</a>
         </li>
-    <onload="loadXML()">
+    </ul>
+</body>
+    <body onload="loadXML()">
     <div id="nav-placeholder"></div>
     <div class="container mt-3">
       <div id="title"></div>
-      <div class="container">
-        <h4 id="setTitle"></h4>
-        <table class="table table-striped order-table" id="ochreTable">
-          <thead class="thead-dark" id="ochreTableColumns">
-              <tr>
-                <th style="text-align: left; width:30%">Name</th>
-                <th style="text-align: left; width:30%">Description</th>
-              </tr>
-          </thead>
-          <tbody id="ochreTableBody">
-          </tbody>
-        </table>
-    </div>
-    <a id="license"></a >
+      <div id="subtitle"></div>
+        <div class="container">
+            <h3 id="projectTitle"></h3>
+            <h4 id="setTitle"></h4>
+            <div id="setDescription"></div>
+            <table class="table table-striped order-table" id="ochreTable">
+                <thead class="thead-dark" id="ochreTableColumns">
+                    <tr>
+                        <th style="text-align: left; width:30%">Name</th>
+                        <th style="text-align: left; width:30%">Description</th>
+                    </tr>
+                </thead>
+                <tbody id="ochreTableBody">
+                </tbody>
+            </table>
+        </div>
+        <a id="license"></a >
     </div>
     <script src="js/ochre.js"></script>
 </body>
