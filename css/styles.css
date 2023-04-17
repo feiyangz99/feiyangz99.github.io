@@ -94,7 +94,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.col-md h1 p::first-letter{
+.row p::first-letter{
     font-size: 3em;
     float: left;
     padding-right: 0.1em;
