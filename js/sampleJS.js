@@ -22,3 +22,8 @@ function hideElement(elementId) {
     var element = document.getElementById(elementId);
     element.style.display = "none";
 }
+function processArray(arr) {
+    console.log(arr);
+}
+var sampleArray = [1, 2, 3, 4, 5];
+processArray(sampleArray);
