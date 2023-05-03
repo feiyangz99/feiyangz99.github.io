@@ -31,6 +31,19 @@ document.addEventListener('DOMContentLoaded', () => {
       animalImg.style.border = '0px';
     });
   }
+  // Create a new Object with properties and values like 'animal01: "Cow" '.
+    // These values can be found in the HTMLCollection.
+
+  // Use the Object to create event listeners for <img> elements that launch the provided howler script.
+    // Write a single 'for...in' statement to add listeners to all the <img> elements.
+    // .addEventListener('click', () => {CODE GOES HERE}
+    // The animal title (e.g. 'Cow') determines which sprite is played.
+
+  // Leverage the Object to add mouseover styling to the <img> elements.
+    // You'll need to add listeners to the <img> elements.
+    // Then you'll need to write functions to do the events.
+    // On mouseover add this.style.border = '3px solid red';
+    // On mouseout add this.style.border = '0px';
 });
 
 function playAnimal(animalSound) {
